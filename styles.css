@@ -1,0 +1,187 @@
+@font-face {
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    src: url('fonts/webfontkit-20230830-093548/roboto-regular-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20230830-093548/roboto-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family:'Roboto', sans-serif;
+    font-weight: 300;
+    src: url('fonts/webfontkit-20230830-093548/roboto-light-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20230830-093548/roboto-light-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family:'Roboto', sans-serif;
+    font-weight: 900;
+    src: url('fonts/webfontkit-20230830-093548/roboto-bold-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20230830-093548/roboto-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family:'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    src: url('fonts/webfontkit-20230830-093548/roboto-italic-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20230830-093548/roboto-italic-webfont.woff') format('woff');
+}
+
+
+
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 9rem;
+}
+
+nav {
+    background-color: rgb(110, 165, 55);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 0.3%;
+    margin-right: 0.3%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+    padding-left: 0.2rem;
+
+}
+
+nav ul li {
+    padding: 0.938rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:rgb(218, 246, 200);
+    width: 7.5rem;
+}
+
+nav li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+}
+
+nav ul li a.active, a:hover {
+    color: rgb(58, 87, 31);
+    transition: 0.4s;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(213, 237, 175);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.banner {
+    background-color: rgb(94, 138, 49);
+    background-image: url(Media/plant_cropped_medium.jpg);
+    background-size: cover;
+    color: white;
+    border-radius: 0.3rem;
+    margin: 0.15rem;
+    padding: 1rem;
+}
+
+ .flex-container {
+    display:grid;  
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+} 
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.box1 {
+    background-color: rgb(110, 165, 55);
+    color: white;
+    border-radius: 0.3rem;
+    margin: 0.15rem;
+    padding: 0.938rem;
+    position: relative;
+	overflow: hidden;
+}
+
+.img-creation {
+    width: 20rem;
+    max-width: 100%;
+}
+
+
+.box2 {
+    background-color: rgb(110, 165, 55);
+    color: white;
+    border-radius: 0.3rem;
+    margin: 0.15rem;
+    padding: 0.938rem;
+    position: relative;
+	overflow: hidden;
+}
+
+.img-maintenance {
+    width: 20rem;
+    max-width: 100%;
+}
+
+.box3 {
+    background-color: rgb(110, 165, 55);
+    color: white;
+    border-radius: 0.3rem;
+    margin: 0.15rem;
+    padding: 0.938rem;
+    position: relative;
+	overflow: hidden;
+}
+
+.img-landscaping {
+    width: 20rem;
+    max-width: 100%;
+}
+
+.box:hover {
+    background-color: rgb(90, 132, 48);
+    transition: 0.4s;
+}
+
+article {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    align-items: end;
+}
+
+footer div {
+    flex: 1;
+    padding: 0.3rem;
+}
+
+.footer_logo > img {
+    width: 2.2rem;
+}
+
+.copyright {
+    font-style: italic;
+    text-align: end;
+    padding: 0.3rem;
+    color: rgb(38, 135, 127);
+}
