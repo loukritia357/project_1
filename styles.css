@@ -98,7 +98,7 @@ h1 {
 
 .banner_text {
     /*background-color: rgb(54, 80, 28);*/
-    background-image: url(Media/plant_cropped_medium.jpg);
+    /*background-image: url(Media/plant_cropped_medium.jpg);*/
     position: absolute;
     background-size: cover;
     color: white;
